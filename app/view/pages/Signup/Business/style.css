@@ -1,0 +1,168 @@
+@import url(../../../utils/CSS/Reset/reset.css);
+@import url(../../../utils/CSS/Variables/variables.css);
+@import url(../../../utils/CSS/Fonts/fonts.css);
+
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo do documento */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+  font-family: var(--fontFjalla);
+  color: var(--R10);
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+/* Estilos para o formulário */
+.formBusiness {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+}
+
+/* Estilos para os campos de entrada */
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: var(--fontIBM);
+}
+
+select option {
+  font-size: 0.9rem;
+}
+
+/* Estilos para os campos de entrada quando focados */
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--R08);
+  box-shadow: 0px 0px 4px 0px var(--R04);
+}
+
+/* Estilos para o botão de cadastro */
+button[name="signup_business"] {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 0.75rem;
+  background-color: var(--R04);
+  border: none;
+  border-radius: 3px;
+  color: var(--R10);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--fontIBM);
+  transition: all 0.2s;
+}
+
+/* Estilos para o botão de cadastro quando hover */
+button[name="signup_business"]:hover {
+  background-color: var(--R05);
+}
+
+/* Estilos para as mensagens de erro */
+.error {
+  color: #dc3545;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.phone {
+  display: flex;
+}
+
+/* Estilos para os campos de telefone */
+.input-phone {
+  display: inline-block;
+  width: 100%;
+  margin-right: 1em;
+}
+
+.input-phone input {
+  display: inline-block;
+  width: calc(50% - 0.5em);
+  margin-right: 1em;
+}
+
+/* Remove a margem direita do último elemento */
+.input-phone input:last-of-type {
+  margin-right: 0 !important;
+}
+
+/* Estilos para o campo de CEP */
+.inputCep {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.address {
+  display: flex;
+}
+
+/* Estilos para o campo de endereço */
+.inputAddress {
+  display: inline-block;
+  width: 80%;
+  margin-right: 1em;
+}
+
+/* Estilos para o campo de número */
+.inputNumber {
+  display: inline-block;
+  width: 20%;
+}
+
+.address2 {
+  display: flex;
+}
+
+/* Estilos para o campo de bairro */
+.inputDistrict {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+
+/* Estilos para o campo de cidade */
+.inputCity {
+  display: inline-block;
+  width: 50%;
+  margin-right: 1em;
+}
+
+/* Estilos para o campo de estado */
+.inputBusinessState {
+  display: inline-block;
+  width: 50%;
+}

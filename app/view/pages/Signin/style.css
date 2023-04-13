@@ -1,0 +1,115 @@
+@import url(../../utils/CSS/Reset/reset.css);
+@import url(../../utils/CSS/Variables/variables.css);
+@import url(../../utils/CSS/Fonts/fonts.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  font-family: var(--fontFjalla);
+  color: var(--R10);
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: var(--fontIBM);
+}
+
+select option {
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--R08);
+  box-shadow: 0px 0px 4px 0px var(--R04);
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 0.75rem;
+  background-color: var(--R04);
+  border: none;
+  border-radius: 3px;
+  color: var(--R10);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--fontIBM);
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: var(--R05);
+}
+
+/* Estilo específico para o tipo de usuário */
+
+[type="user"] label[for="type_user"], 
+[type="business"] label[for="type_user"] {
+  display: block;
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+[type="user"] select[name="type_user"], 
+[type="business"] select[name="type_user"] {
+  margin-bottom: 20px;
+}
+
+[type="user"] button[name="signin"], 
+[type="business"] button[name="signin"] {
+  background-color: var(--R04);
+}
+
+[type="user"] button[name="signin"]:hover, 
+[type="business"] button[name="signin"]:hover {
+  background-color: var(--R04);
+}
+
+p {
+  padding: 1rem;
+  text-align: center;
+}
+
+p a {
+  text-decoration: none;
+  color: var(--R10);
+}

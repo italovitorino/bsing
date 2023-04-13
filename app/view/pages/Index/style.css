@@ -1,0 +1,195 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./IMG/Ipad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 38px;
+  color: #fff1f1;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+}
+
+.header ul,
+li {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+
+  color: #fff1f1;
+}
+
+.header a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #833e76;
+  background-color: #d39cc9;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+main .p-inicio {
+  font-size: 32px;
+  padding: 20px 0px 0px 0px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffe7e7 -167.87deg,
+    #fedaff 60deg,
+    #ffe7e7 192.13deg,
+    #fedaff 420deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+main .p-meio {
+  font-size: 68px;
+  padding: 30px 0px;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ffe7e7 -167.87deg,
+    #fedaff 60deg,
+    #ffe7e7 192.13deg,
+    #fedaff 420deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-center {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+main a {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #833e76;
+  background-color: #d39cc9;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.quadrados {
+  display: flex;
+  padding: 50px 50px;
+  gap: 30px;
+}
+
+.quadrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 250px;
+  background-color: #fedaff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 28px;
+  border-radius: 4px;
+  background: rgba(189, 189, 189, 0.35) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #ffe3fa;
+}
+
+.cards {
+  display: flex;
+  padding: 0px 50px;
+  gap: 30px;
+}
+
+.card {
+  width: 100vw;
+  height: 250px;
+  padding: 15px 15px;
+  background: rgba(189, 189, 189, 0.35) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #ffe3fa;
+}
+
+.titulo-card {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 38px;
+  gap: 10px;
+}
+
+.card > p {
+  color: #ffe3fa;
+  font-family: "source sans pro", sans-serif;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  width: 100vw;
+  height: 90px;
+  background-color: #d39cc9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #833e76;
+  font-family: "source sans pro", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}

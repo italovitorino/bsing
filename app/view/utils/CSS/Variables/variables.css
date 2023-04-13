@@ -1,0 +1,33 @@
+:root {
+  /* Roxo */
+  --R01: #FFDFDF;
+  --R02: #FFCFCF;
+  --R03: #F2BBBB;
+  --R04: #E5A8A8;
+  --R05: #D99696;
+  --R06: #CC8585;
+  --R07: #BF7575;
+  --R08: #B26666;
+  --R09: #A65858;
+  --R10: #994B4B;
+  --R11: #8C3F3F;
+  --R12: #803535;
+
+  /* Cinza */
+  --C01: #F5F5F5;
+  --C02: #EDEDED;
+  --C03: #DEDEDE;
+  --C04: #CCCCCC;
+  --C05: #B2B2B2;
+  --C06: #9C9C9C;
+  --C07: #717171;
+  --C08: #595959;
+  --C09: #404040;
+  --C10: #2E2E2E;
+  --C11: #1A1A1A;
+  --C12: #0E0E0E;
+
+  /* Tipography */
+  --fontIBM: 'IBM Plex Sans', sans-serif;
+  --fontFjalla: 'Fjalla One', sans-serif;
+} 
